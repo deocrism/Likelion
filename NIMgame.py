@@ -23,7 +23,7 @@ class Player:
         return inputNumber
     
 
-
+print("Rules of the game: There will be two players competing against each other. Each player will get a turn to add a number between 1-3, and the first to hit 30 loses the match. The starting number is 0 and the starting player is chosen at random.")
 player1 = Player(input("Enter Player 1's name: "))
 player2 = Player(input("Enter Player 2's name: "))
 totalRounds = int(input("The winner will be the best of how many matches? "))
